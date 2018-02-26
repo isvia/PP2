@@ -18,15 +18,14 @@ namespace ConsoleApp1
                 this.age = age;
             }
 
+            public student() { }
+
             public override string ToString()
             {
                 return "name is -"+name+"\nage is="+age ;
             }
         }
-        class rectangle
-        {
-
-        }
+       
         static void Main(string[] args)
         {
             Console.WriteLine("What is your name?");

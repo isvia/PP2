@@ -16,7 +16,7 @@ namespace MaxMin
 
             string s = push.ReadToEnd();
             string pr = "";
-            string ppr = "";
+            string ppr = " ";
             string[] arr = s.Split(' ');
             List<int> nums = new List<int>();
             int mn = -1;

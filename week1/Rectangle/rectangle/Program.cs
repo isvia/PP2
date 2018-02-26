@@ -15,14 +15,15 @@ namespace rectangle
             w1 = w;
             getarea();
             getperi();
+
         }
         public void getarea()
         {
-            area = h * w;
+            area = h1 * w1;
         }
         public void getperi()
         {
-            peri = 2*(h + w);
+            peri = 2*(h1 + w1);
         }
     }
     class Program
